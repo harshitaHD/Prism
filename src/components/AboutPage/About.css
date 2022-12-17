@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.abt-cards{
+    display: flex;
+    justify-content: center;
+    margin: 1pc;
+}
+
+.abt-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2pc;
+    font-weight: bold;
+    color: #080808;
+}
+
+p{
+    margin-top: 20px;
+    color: #787878;
+}
+
+p span{
+    font-weight: bold;
+}
+
+.abt-body{
+flex-wrap: wrap;
+display: inline-block;
+height: 23pc;
+width: 23pc;
+margin: 3%;
+}
+
+.mission{
+    height: 15%;
+    box-shadow: 4px 4px 4px	#D0D0D0 ;
+}
+
+.mission-body{
+    box-shadow: 2px 2px 2px 2px	#D0D0D0 ;
+}
+
+.vision{
+    height: 15%;
+    box-shadow: 4px 4px 4px 	#D0D0D0 ;
+}
+
+.vision-body{
+    box-shadow: 2px 2px 2px 2px	#D0D0D0 ;
+}
+
+.work{
+    height: 15%;
+    box-shadow: 4px 4px 4px 	#D0D0D0 ;
+}
+
+.work-body{
+    box-shadow: 2px 2px 2px 2px	#D0D0D0 ;
+}

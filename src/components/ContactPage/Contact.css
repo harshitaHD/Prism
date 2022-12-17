@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin: 1pc;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px #D0D0D0;
+}
+
+p{
+    color: #787878;
+}
+
+.form-label{
+    color: #787878;
+    margin-top: 1.5pc;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5pc;
+    font-weight: 500;
+}
+
+.submit-btn{
+    font-weight: bold;
+    font-size: 1pc;
+    color: white;
+	background-color: #068932;
+	border: 5px solid transparent;
+	transition: .2s ease;
+	border-radius: 50px;
+    margin: 1pc;
+    height: 2pc;
+    width: 8pc;
+}
+
+.submit-btn:hover{
+    background-color: white;;
+	transform: scale(1.1);
+    border: 2px solid black;
+}
+
+#name{
+    width: 40pc;
+    height: 2pc;
+    border: 1px solid black;
+}
+
+#email{
+    width: 40pc;
+    height: 2pc;
+    border: 1px solid black;
+}
+
+#message{
+    width: 40pc;
+    height: 5pc;
+    border: 1px solid black;
+}
